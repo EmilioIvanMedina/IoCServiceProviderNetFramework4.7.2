@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCPresentation", "IoCPresentation\IoCPresentation.csproj", "{AD1EE5BA-22FE-4790-8D68-2DF73CCAA198}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleServices", "SampleServices\SampleServices.csproj", "{F241A842-EE98-4ABE-ADD9-24C6C240C17A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AD1EE5BA-22FE-4790-8D68-2DF73CCAA198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD1EE5BA-22FE-4790-8D68-2DF73CCAA198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD1EE5BA-22FE-4790-8D68-2DF73CCAA198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F241A842-EE98-4ABE-ADD9-24C6C240C17A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F241A842-EE98-4ABE-ADD9-24C6C240C17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F241A842-EE98-4ABE-ADD9-24C6C240C17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F241A842-EE98-4ABE-ADD9-24C6C240C17A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
