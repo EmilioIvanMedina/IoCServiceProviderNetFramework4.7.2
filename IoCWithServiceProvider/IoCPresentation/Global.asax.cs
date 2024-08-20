@@ -33,6 +33,7 @@ namespace IoCPresentation
 
         private void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<ISampleService, SampleService>();
         }
     }
 }
