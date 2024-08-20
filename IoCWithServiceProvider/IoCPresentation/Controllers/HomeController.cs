@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SampleServices.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,8 +9,16 @@ namespace IoCPresentation.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ISampleService _sampleService;
+
+        public HomeController(ISampleService sampleService)
+        {
+            _sampleService = sampleService;
+        }
+
         public ActionResult Index()
         {
+            var myNumber = _sampleService.GetNumber();
             return View();
         }
 

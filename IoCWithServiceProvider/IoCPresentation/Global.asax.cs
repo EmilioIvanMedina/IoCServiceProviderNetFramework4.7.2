@@ -1,4 +1,5 @@
 ﻿using IoCPresentation.App_Start;
+using IoCPresentation.Controllers;
 using Microsoft.Extensions.DependencyInjection;
 using SampleServices.Interfaces;
 using SampleServices.Services;
@@ -34,6 +35,7 @@ namespace IoCPresentation
         private void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<ISampleService, SampleService>();
+            services.AddTransient<HomeController>();
         }
     }
 }
